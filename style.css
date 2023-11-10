@@ -86,7 +86,7 @@ nav ul li a {
     color: #333333;
     font-weight: bold;
 
-    /*lane 91,92,93 for center text in the tag a on nav*/
+    /*lanes 90,91,92 for center text in the tag a on nav*/
     display: flex;
     flex-direction: column;
     justify-content: center;
