@@ -12,68 +12,94 @@
 
 * {
     box-sizing: border-box;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
-    /*font-family: 'Arial', sans-serif;*/
     font-family: "Sharp Grotesk Book 25 Regular";
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
     background-color: #f5f5f5;
     color: #333333;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 3px solid #333333;
+
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
 }
 
-.logo-container img {
-    /*max-width: 100%;
-    height: auto;*/
-    max-width: 300px;
-    max-height: 90px;
-    min-width: 150px;
-    min-height: 45px;
+.logo-container {
+    flex: 1;
+}
+
+img.logo {
+    width: 40%;
+    height: 100%;
+}
+
+nav{
+    flex: 1;
 }
 
 nav ul {
     list-style: none;
+
     display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+    flex: 1;
+
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid black;
 }
 
 nav ul li {
-    margin-right: 10px;
     text-align: center;
+
+    width: 100%;
+
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border: 1px solid red;
 }
 
-nav a {
+nav ul li a {
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     color: #333333;
     font-weight: bold;
 }
 
-a:hover {
+nav ul li a:hover {
     background-color: #91e991;
-    padding: 0;
 }
 
-a.btn-active {
+nav ul li a.btn-active {
     background-color: #91e991;
 
 }
 
 .main-content {
-    padding: 20px;
+    height: 80%;
 }
 
 footer {
     background-color: #333333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    height: 10%;
 }
