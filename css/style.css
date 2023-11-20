@@ -121,33 +121,42 @@ footer {
 /*Inicio CSS Main Productos y Proveedores*/
 
 .bor1{
-    width: 300px;
-    height: 100px;
+    width: 19em;
+    height: 7em;
     border: 5px;
     border-style: solid;
     border-color: black;
     box-sizing: border-box;
-    
+
 }
 .bor2{
-    width: 300px;
-    height: 100px;
+    width: 19em;
+    height: 7em;
     border: 5px;
     border-style: solid;
     border-color: black;
     box-sizing: border-box;
-    
     
 }
 .bor3{
-    width: 300px;
-    height: 100px;
+    width: 19em;
+    height: 7em;
     border: 5px;
     border-style: solid;
     border-color: black;
     box-sizing: border-box;
-    right: 15px;
     
 }
+
+img.paracetamol {
+    height: 120%;
+    width: 100% ;
+}
+
+img.disfaropharma {
+    height: 30%;
+    width: 20% ;
+}
+
 
 /*Final CSS Main Productos y Proveedores*/
