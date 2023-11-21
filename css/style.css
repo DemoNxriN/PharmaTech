@@ -47,7 +47,7 @@ img.logo {
 }
 
 nav{
-    flex: 1;
+    flex: 3;
 }
 
 nav ul {
@@ -60,7 +60,7 @@ nav ul {
     flex: 1;
 
     height: 100%;
-    width: 100%;
+    width: 80%;
 
 
 }
@@ -85,6 +85,7 @@ nav ul li a {
     text-decoration: none;
     color: #333333;
     font-weight: bold;
+    font-size: 0.8rem;
 
     /*lanes 90,91,92 for center text in the tag a on nav*/
     display: flex;
@@ -118,6 +119,7 @@ footer {
 
 /*Final CSS General*/
 
+
 /*Inicio CSS Main Productos y Proveedores*/
 
 .bor1{
@@ -136,7 +138,7 @@ footer {
     border-style: solid;
     border-color: black;
     box-sizing: border-box;
-    
+
 }
 .bor3{
     width: 19em;
@@ -145,7 +147,7 @@ footer {
     border-style: solid;
     border-color: black;
     box-sizing: border-box;
-    
+
 }
 
 img.paracetamol {
