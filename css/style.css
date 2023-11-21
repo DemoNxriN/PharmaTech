@@ -107,6 +107,11 @@ nav ul li a.btn-active {
 
 .main-content {
     height: 80%;
+    text-align: center;
+}
+
+.main-content h1 {
+    padding: 8px;
 }
 
 footer {
