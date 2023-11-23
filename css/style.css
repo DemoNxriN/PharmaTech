@@ -108,7 +108,7 @@ nav ul li a.btn-active {
 }
 
 .square {
-    flex: 1;
+    width: 40%;
     height: 100%;
     margin: 1%;
     border: 2px #333333 solid;
@@ -116,7 +116,7 @@ nav ul li a.btn-active {
 }
 
 .square-text {
-    flex: 3;
+    width: 60%;
     height: 100%;
     margin: 1%;
     border: 2px #333333 solid;
