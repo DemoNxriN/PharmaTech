@@ -147,3 +147,11 @@ nav ul li a.btn-active {
     margin: 1%;
     border-radius: 1%;
 }
+
+.produc {
+    max-height: 250px;
+    max-width: 200px;
+    position: relative;
+    left: 5em;
+    
+}
