@@ -136,7 +136,7 @@ nav ul li a.btn-active {
 
 
 .TituloFarmacia{
-    background-color:grey;
+    background-color:white;
     padding: 3px;
 
 }
@@ -146,4 +146,15 @@ nav ul li a.btn-active {
     height: 80%;
     margin: 1%;
     border-radius: 1%;
+}
+
+.Logoo{
+    margin-left:37%;
+    width: 130px;
+    height: 125px;
+}
+
+
+.a{
+    text-decoration:none;
 }
