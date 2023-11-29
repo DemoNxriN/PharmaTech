@@ -158,3 +158,9 @@ a{
     height: 125px;
 }
 
+.produc {
+    max-height: 250px;
+    max-width: 200px;
+    position: relative;
+    left: 5em;
+}
