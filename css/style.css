@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Sharp Grotesk Book 25 Regular";
+    src: url("91d3afe918937141b6ae8e43b1005bc8.eot");
+    src: url("91d3afe918937141b6ae8e43b1005bc8.eot?#iefix")format("embedded-opentype"),
+        url("91d3afe918937141b6ae8e43b1005bc8.woff")format("woff"),
+        url("91d3afe918937141b6ae8e43b1005bc8.woff2")format("woff2"),
+        url("91d3afe918937141b6ae8e43b1005bc8.ttf")format("truetype"),
+        url("91d3afe918937141b6ae8e43b1005bc8.svg#Sharp Grotesk Book 25 Regular")format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 * {
     box-sizing: border-box;
