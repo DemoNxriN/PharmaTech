@@ -1,14 +1,3 @@
-@import url(https://db.onlinewebfonts.com/c/91d3afe918937141b6ae8e43b1005bc8?family=Sharp+Grotesk+Book+25+Regular);
-
-@font-face {
-    font-family: "Sharp Grotesk Book 25 Regular";
-    src: url("https://db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.eot");
-    src: url("https://db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.eot?#iefix")format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.woff2")format("woff2"),
-        url("https://db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.woff")format("woff"),
-        url("https://db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.ttf")format("truetype"),
-        url("https://db.onlinewebfonts.com/t/91d3afe918937141b6ae8e43b1005bc8.svg#Sharp Grotesk Book 25 Regular")format("svg");
-}
 
 * {
     box-sizing: border-box;
@@ -39,11 +28,13 @@ header {
 .content {
     display: flex;
     flex-grow: 1;
+
 }
 
 .main {
     flex-grow: 1;
     padding: 2%;
+
 }
 
 footer {
@@ -111,10 +102,11 @@ nav ul li a.btn-active {
 
 .square {
     width: 40%;
-    height: 80%;
+    min-height: 80%;
     margin: 1%;
     border: 2px #333333 solid;
     border-radius: 15px;
+
 }
 
 .square-text {
@@ -156,12 +148,39 @@ a{
     max-height: 250px;
     max-width: 200px;
     position: relative;
-    left: 5em;
+    left: 6.5em;
+
+}
+
+.produc1 {
+    max-height: 250px;
+    max-width: 200px;
+    position: relative;
+    left: 6.5em;
+    top: 1em;
+
 }
 
 .produc2 {
     max-height: 180px;
     max-width: 200px;
     position: relative;
-    left: 5em;
+    left: 8em;
+    top: 1em;
+}
+
+.produc3 {
+    max-height: 180px;
+    max-width: 200px;
+    position: relative;
+    left: 7.5em;
+    top: 1em;
+}
+
+.produc4 {
+    max-height: 180px;
+    max-width: 200px;
+    position: relative;
+    left: 6.5em;
+    top: 2em;
 }
